@@ -1,0 +1,79 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #a1aeb4;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 100%;
+}
+
+hr{
+    width: 100%;
+    border-bottom: 5px;
+}
+
+.cabecario{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+
+.link{
+    padding-left: 5px;
+}
+
+.link_projetos{
+    padding-left: 5px;
+}
+
+.apresentacao{
+    margin: 0 5% 0 5%;
+}
+
+main{
+    display: flex; 
+    flex-direction: column;
+}
+
+.blocos{
+    margin: 0 25px 0 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.container-border{
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-left: 12px;
+    border: 1px solid grey;
+    border-radius: 2%;
+}
+
+.estudos{
+    width: 45%;    
+}
+
+.certificado{
+    padding-right: 2px;
+}
+
+.footer{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;    
+}
+
+.assinatura{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

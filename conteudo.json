@@ -1,0 +1,34 @@
+{
+    "apresentacao":
+    [
+        {
+            "tituloBr": "Quem sou eu",
+            "tituloEn":"Who i am",
+            "textoBr": "Meu nome é Robert Nunes dos Santos, tenho 30 anos e carrego comigo uma paixão incansável por tecnologia. Desde criar sites e escrever códigos até transformar ideias em experiências interativas, vejo na desenvolvimento de software uma arte que une lógica e criatividade. Estou cursando faculdade de Jogos Digitais, com foco em desenvolviento de software C# e paradigma OOP, utilizando a Unity como principal ferramenta de desenvolvimento. Sou movido por descobertas — adoro aprender novos conceitos, linguagens e tudo que possa expandir minha visão no mundo da tecnologia. Minhas paixões por redes sociais, arte e games digitais me inspiram a integrar tudo isso nos projetos que desenvolvo, buscando experiências únicas e autênticas.",
+            "textoEn": "My name is Robert Nunes dos Santos, I am 30 years old, and I carry with me an unwavering passion for technology. From building websites and writing code to transforming ideas into interactive experiences, I see software development as an art form that blends logic and creativity. I am currently pursuing a degree in Digital Games, with a focus on C# software development and object-oriented programming (OOP), using Unity as my primary development tool. I am driven by discovery—I enjoy learning new concepts, languages, and anything that broadens my perspective in the world of technology. My passion for social media, art, and digital games inspires me to incorporate these elements into the projects I develop, always striving to create unique and authentic experiences."
+        }
+    ],
+    "estudos":
+    [
+        {
+            "tituloBr": "Graduações e Certificados",
+            "tituloEn": "Degrees and Certifications ",
+            "textoBr": "Formação Acadêmica: (FMU) Faculdades Metropolitanas Unidas — Tecnólogo em Jogos Digitais JULHO DE 2023 - DEZEMBRO DE 2025 - Cursando Criação e desenvolvimento de jogos eletrônicos Programação de mecânicas e interface do jogo",
+            "textoEn": "Academic Background: (FMU) Faculdades Metropolitanas Unidas — Associate Degree in Digital Games July 2023 December 2025 In ProgressDesign and development of electronic games Programming of game mechanics and user interface"
+        }
+    ],
+    "tecnicas":
+    [
+        {
+            "tituloBr": "Tecnicas e Habilidades",
+            "tituloEn": "Skills"
+        }
+    ],
+    "projetos":
+    [
+        {
+            "tituloBr": "Projetos",
+            "tituloEn": "Projects"
+        }
+    ]
+}

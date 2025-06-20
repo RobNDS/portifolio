@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/style/style.css">
+    <script src="/src/components/inicializacao.js" defer></script>
+    <script src="/src/components/traducao.js" ></script> 
     <title>Portifólio</title>
 </head>
 <body>
@@ -18,22 +20,16 @@
         <a class="link" target="_blank" href="https://play.unity.com/en/user/8c2f2340-56c5-419e-ad24-553cafa20765">                    
             <img width="20px" height="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-plain.svg" />
           </a>
+          <div style="position: fixed; right: 4px;" id="translateDiv">
+              <a id="translate" href="" class="communText">Translate</a>
+            </div>
         <br>
     </section>
 
     <main>
         <div class="apresentacao">
-            <h4>Quem sou eu</h4>
-            <p>
-                Meu nome é Robert Nunes dos Santos, tenho 30 anos e carrego comigo uma paixão 
-                incansável por tecnologia. Desde criar sites e escrever códigos até transformar 
-                ideias em experiências interativas, vejo na desenvolvimento de software uma arte que une lógica e 
-                criatividade. Estou cursando faculdade de Jogos Digitais, com foco em desenvolviento de software C#
-                e paradigma OOP, utilizando a Unity como principal ferramenta de desenvolvimento.
-                Sou movido por descobertas — adoro aprender novos conceitos, linguagens e tudo que
-                possa expandir minha visão no mundo da tecnologia. Minhas paixões por redes sociais, 
-                arte e games digitais me inspiram a integrar tudo isso nos projetos que desenvolvo, 
-                buscando experiências únicas e autênticas.
+            <h4 id="titulo-apresentacao"></h4>
+            <p id="txt-apresentacao">
             </p>            
         </div>
 
@@ -41,15 +37,10 @@
 
         <div class="blocos">
             <div class="estudos container-border">
-            <h4>Graduações e Certificados</h4>
+            <h4 id="titulo-estudos"></h4>
             <ul>
-                <li>
-                    Formação Acadêmica: 
+                <li id="txt-estudos">
                     <br>
-                    (FMU) Faculdades Metropolitanas Unidas — Tecnólogo em Jogos Digitais
-                    JULHO DE 2023 - DEZEMBRO DE 2025 - Cursando
-                    Criação e desenvolvimento de jogos eletrônicos
-                    Programação de mecânicas e interface do jogo
                 </li>
                 <br>
                 <li class="certificado">
@@ -65,11 +56,10 @@
         </div>
 
         <div class="container-border">
-            <h4>Tecnicas e Habilidades</h4>
+            <h4 id="titulo-tecnicas"></h4>
             <ul>
                 <li>
-                    C#
-                    
+                    C#                    
                 </li>
                 <li>
                     Unity
@@ -78,7 +68,7 @@
         </div>
         
         <div class="projetos container-border">
-            <h4>Projetos</h4>
+            <h4 id="titulo-projetos"></h4>
             <ul>
                 <li>
                     Road-Ball
